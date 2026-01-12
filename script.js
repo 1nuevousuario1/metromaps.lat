@@ -58,8 +58,6 @@ const estaciones = [
   { nombre: "Santa Lucía", coords: [-100.305, 25.660], linea: "L3" }
 ];
 
-
-
 const origenSelect = document.getElementById("origen");
 const destinoSelect = document.getElementById("destino");
 
@@ -76,7 +74,7 @@ estaciones.forEach(est => {
 
   let color = "orange";
   if (est.linea === "L2") color = "green";
-  if (est.linea === "L3") color = "blue";
+  if (est.linea === "L3") color = "red";
 
   new mapboxgl.Marker({ color })
     .setLngLat(est.coords)
