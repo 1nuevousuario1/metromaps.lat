@@ -8,7 +8,6 @@ const map = new mapboxgl.Map({
 });
 
 const estaciones = [
- const estaciones = [
   // Línea 1 (amarillo)
   { nombre: "Talleres", coords: [-100.374, 25.749], linea: "L1" },
   { nombre: "San Bernabé", coords: [-100.360, 25.744], linea: "L1" },
@@ -58,6 +57,7 @@ const estaciones = [
   { nombre: "Félix U. Gómez", coords: [-100.290, 25.670], linea: "L3" },
   { nombre: "Santa Lucía", coords: [-100.305, 25.660], linea: "L3" }
 ];
+
 
 
 const origenSelect = document.getElementById("origen");
