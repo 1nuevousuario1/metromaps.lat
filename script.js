@@ -131,7 +131,7 @@ function calcularRuta() {
   const listadoCorto = intermedias.slice(0, 6).join(', ');
   const hayMas = intermedias.length > 6 ? `, entre otras` : '';
 
-  let descripcion = `<h3>📍 Detalles del recorrido</h3>
+  let descripcion = `<h3>📍 Detalles del recorrido 📍</h3>
     <p><b>Líneas involucradas:</b></p>
     <p>Sales de <b>${origenNombre}</b> en la línea correspondiente.</p>`;
 
