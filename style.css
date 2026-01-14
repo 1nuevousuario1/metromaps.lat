@@ -1,14 +1,15 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
 header {
   background: #ff6600;
   color: white;
   padding: 10px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centra el texto */
+  position: relative; /* necesario para que el logo absoluto se posicione dentro */
 }
-#map {
-  width: 100%;
-  height: 500px;
+.logo {
+  position: absolute;
+  left: 20px;
+  width: 60px;
+  height: auto;
 }
